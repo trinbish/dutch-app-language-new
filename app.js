@@ -1,7 +1,12 @@
 // Load words
 let cards = JSON.parse(localStorage.getItem("cards")) || [
   {dutch:"het boek", english:"the book", correct:0, wrong:0},
-  {dutch:"lopen", english:"to walk", correct:0, wrong:0}
+  {dutch:"drinken", english:"to drink", correct:0, wrong:0},
+  {dutch:"lopen", english:"to walk", correct:0, wrong:0},
+  {dutch:"eruitzien", english:"to look", correct:0, wrong:0},
+  {dutch:"geven", english:"to give", correct:0, wrong:0},
+  {dutch:"horen", english:"to hear", correct:0, wrong:0},
+  {dutch:"huilen", english:"to cry", correct:0, wrong:0}
 ];
 
 let i = 0;
@@ -78,3 +83,4 @@ function save() {
 showCard();
 newQuiz();
 updateStats();
+
