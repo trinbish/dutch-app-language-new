@@ -84,3 +84,22 @@ showCard();
 newQuiz();
 updateStats();
 
+function bulkImport() {
+  let text = document.getElementById("bulk").value;
+  let lines = text.split("\n");
+
+  let count = 0;
+  lines.forEach(line => {
+    let parts = line.split("-");
+    if (parts.length >= 2) {
+      let dutch = parts[0].trim();
+      let english = parts[1].trim();
+      cards.push({dutch, english, correct:0, wrong:0});
+      count++;
+    }
+  });
+
+  save();
+  alert("Imported " + count + " words!");
+}
+
