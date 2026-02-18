@@ -31,6 +31,10 @@ if ("serviceWorker" in navigator) {
 <input id="dutch" placeholder="Dutch word">
 <input id="english" placeholder="English meaning">
 <button onclick="addWord()">Add</button>
+<h2>Bulk Import</h2>
+<textarea id="bulk" rows="10" cols="50" placeholder="het boek - the book"></textarea>
+<br>
+<button onclick="bulkImport()">Import List</button>
 
 <h2>Progress</h2>
 <p id="stats"></p>
@@ -38,3 +42,4 @@ if ("serviceWorker" in navigator) {
 <script src="app.js"></script>
 </body>
 </html>
+
