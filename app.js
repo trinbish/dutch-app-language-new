@@ -49,6 +49,49 @@ let cards = JSON.parse(localStorage.getItem("cards")) || [
   {dutch:"spelen", english:"to play", correct:0, wrong:0},
   {dutch:"studeren", english:"to study", correct:0, wrong:0},
   {dutch:"wonen", english:"to live (reside)", correct:0, wrong:0},
+    {dutch:"het huis", english:"the house", correct:0, wrong:0},
+  {dutch:"de kat", english:"the cat", correct:0, wrong:0},
+  {dutch:"de hond", english:"the dog", correct:0, wrong:0},
+  {dutch:"de man", english:"the man", correct:0, wrong:0},
+  {dutch:"de vrouw", english:"the woman", correct:0, wrong:0},
+  {dutch:"het kind", english:"the child", correct:0, wrong:0},
+  {dutch:"de auto", english:"the car", correct:0, wrong:0},
+  {dutch:"de fiets", english:"the bicycle", correct:0, wrong:0},
+  {dutch:"het werk", english:"the work", correct:0, wrong:0},
+  {dutch:"de school", english:"the school", correct:0, wrong:0},
+  {dutch:"de stad", english:"the city", correct:0, wrong:0},
+  {dutch:"het land", english:"the country", correct:0, wrong:0},
+  {dutch:"de dag", english:"the day", correct:0, wrong:0},
+  {dutch:"de nacht", english:"the night", correct:0, wrong:0},
+  {dutch:"de week", english:"the week", correct:0, wrong:0},
+  {dutch:"het jaar", english:"the year", correct:0, wrong:0},
+  {dutch:"de tijd", english:"the time", correct:0, wrong:0},
+  {dutch:"de mensen", english:"the people", correct:0, wrong:0},
+  {dutch:"het water", english:"the water", correct:0, wrong:0},
+  {dutch:"het eten", english:"the food", correct:0, wrong:0},
+  {dutch:"de winkel", english:"the shop", correct:0, wrong:0},
+  {dutch:"de straat", english:"the street", correct:0, wrong:0},
+  {dutch:"het geld", english:"the money", correct:0, wrong:0},
+  {dutch:"de taal", english:"the language", correct:0, wrong:0},
+  {dutch:"de wereld", english:"the world", correct:0, wrong:0},
+  {dutch:"het probleem", english:"the problem", correct:0, wrong:0},
+  {dutch:"het antwoord", english:"the answer", correct:0, wrong:0},
+  {dutch:"de vraag", english:"the question", correct:0, wrong:0},
+  {dutch:"het boek", english:"the book", correct:0, wrong:0},
+  {dutch:"de tafel", english:"the table", correct:0, wrong:0},
+  {dutch:"de stoel", english:"the chair", correct:0, wrong:0},
+  {dutch:"het raam", english:"the window", correct:0, wrong:0},
+  {dutch:"de deur", english:"the door", correct:0, wrong:0},
+  {dutch:"het bed", english:"the bed", correct:0, wrong:0},
+  {dutch:"de kamer", english:"the room", correct:0, wrong:0},
+  {dutch:"de keuken", english:"the kitchen", correct:0, wrong:0},
+  {dutch:"de badkamer", english:"the bathroom", correct:0, wrong:0},
+  {dutch:"de vriend", english:"the friend", correct:0, wrong:0},
+  {dutch:"de vriendin", english:"the girlfriend", correct:0, wrong:0},
+  {dutch:"de familie", english:"the family", correct:0, wrong:0},
+  {dutch:"het werkwoord", english:"the verb", correct:0, wrong:0},
+  {dutch:"het zelfstandig naamwoord", english:"the noun", correct:0, wrong:0},
+  {dutch:"het bijvoeglijk naamwoord", english:"the adjective", correct:0, wrong:0},
 
 let i = 0;
 let flipped = false;
@@ -143,5 +186,6 @@ function bulkImport() {
   save();
   alert("Imported " + count + " words!");
 }
+
 
 
