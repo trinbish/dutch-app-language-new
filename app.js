@@ -92,6 +92,34 @@ let cards = JSON.parse(localStorage.getItem("cards")) || [
   {dutch:"het werkwoord", english:"the verb", correct:0, wrong:0},
   {dutch:"het zelfstandig naamwoord", english:"the noun", correct:0, wrong:0},
   {dutch:"het bijvoeglijk naamwoord", english:"the adjective", correct:0, wrong:0},
+    {dutch:"goed", english:"good", correct:0, wrong:0},
+  {dutch:"slecht", english:"bad", correct:0, wrong:0},
+  {dutch:"groot", english:"big", correct:0, wrong:0},
+  {dutch:"klein", english:"small", correct:0, wrong:0},
+  {dutch:"mooi", english:"beautiful", correct:0, wrong:0},
+  {dutch:"lelijk", english:"ugly", correct:0, wrong:0},
+  {dutch:"oud", english:"old", correct:0, wrong:0},
+  {dutch:"jong", english:"young", correct:0, wrong:0},
+  {dutch:"nieuw", english:"new", correct:0, wrong:0},
+  {dutch:"oud", english:"old", correct:0, wrong:0},
+  {dutch:"duur", english:"expensive", correct:0, wrong:0},
+  {dutch:"goedkoop", english:"cheap", correct:0, wrong:0},
+  {dutch:"veel", english:"much/many", correct:0, wrong:0},
+  {dutch:"weinig", english:"little/few", correct:0, wrong:0},
+  {dutch:"snel", english:"fast", correct:0, wrong:0},
+  {dutch:"langzaam", english:"slow", correct:0, wrong:0},
+  {dutch:"warm", english:"warm", correct:0, wrong:0},
+  {dutch:"koud", english:"cold", correct:0, wrong:0},
+  {dutch:"makkelijk", english:"easy", correct:0, wrong:0},
+  {dutch:"moeilijk", english:"difficult", correct:0, wrong:0},
+  {dutch:"hier", english:"here", correct:0, wrong:0},
+  {dutch:"daar", english:"there", correct:0, wrong:0},
+  {dutch:"nu", english:"now", correct:0, wrong:0},
+  {dutch:"later", english:"later", correct:0, wrong:0},
+  {dutch:"vandaag", english:"today", correct:0, wrong:0},
+  {dutch:"morgen", english:"tomorrow", correct:0, wrong:0},
+  {dutch:"gisteren", english:"yesterday", correct:0, wrong:0}
+];
 
 let i = 0;
 let flipped = false;
@@ -186,6 +214,7 @@ function bulkImport() {
   save();
   alert("Imported " + count + " words!");
 }
+
 
 
 
